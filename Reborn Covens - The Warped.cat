@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="6e1a-10e3-6683-191f" name="Reborn Covens - The Warped" gameSystemId="sys-774c-62f8-fa42-34ab" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="model" import="false" name="Exemplar" hidden="false" id="a840-d70c-53b0-85fd">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="7900-3a65-954-6e62" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Exemplar" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="46aa-4bc7-e5f0-a838">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Protector" hidden="false" id="2712-e284-436-4a4e">
+          <description>At the end of the unit&apos;s Turn, choose one Ally you can see. All Enemies touching that unit are Exhausted.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="8b42-e587-42a2-26d8" targetId="b5d5-d129-b510-f936"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Visionary" hidden="false" id="9690-914e-f7cb-da43">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="8ff9-4931-1ec3-5c0a" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Visionary" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="a1aa-1c77-611b-f0a1">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Unveil" hidden="false" id="47a1-7e2c-b639-234d">
+          <description>At the end of the unit&apos;s Turn, swap the positions of any two Allies you can see.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="9349-bed1-b1e8-6715" targetId="b5d5-d129-b510-f936"/>
+        <entryLink import="true" name="Cloak" hidden="false" type="selectionEntry" id="c9a-e0fe-1940-7e10" targetId="a65e-4d40-c9a9-fae7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8173-be77-2757-5544"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c587-c490-3d6e-ec23"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Host" hidden="false" id="5747-dd66-8af-e0c5">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="f2db-c2a5-30ad-e1a5" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Host" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="12c2-1f3a-ed6d-dd85">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Onslaught" hidden="false" id="35d2-fe2b-7a42-3a3">
+          <description>At the end of the unit&apos;s Turn, any Enemies touching the unit take d6 Damage.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="770a-4c18-bb8c-338" targetId="b5d5-d129-b510-f936"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Offspring" hidden="false" id="bbee-67cf-3686-2289">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="5f30-6327-f5b0-4f84" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Offspring" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="6b94-909d-86cd-4551">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fierce" hidden="false" type="rule" id="974-1a87-c7fe-10f5" targetId="f87a-ab95-7fa5-db49"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="9593-d3e6-b1c5-a666" targetId="b5d5-d129-b510-f936"/>
+        <entryLink import="true" name="Savage Claws" hidden="false" type="selectionEntry" id="110d-3d3e-d423-cc58" targetId="7abd-78b-80e6-f831">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f47d-b796-2699-dbe1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3781-8f6d-bd83-e8e3"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Keeper" hidden="false" id="6f9f-d8d2-b658-d6d7">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="413e-20da-81b8-f832" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Keeper" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="94fd-954-811a-68a">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Revive" hidden="false" id="24d2-e829-8b39-5486">
+          <description>At the end of the unit&apos;s Turn, any Allies the unit is touching automatically Recover.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="534b-753b-9b4f-c3f6" targetId="b5d5-d129-b510-f936"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Engineer" hidden="false" id="cbc6-d833-5188-cb24">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="b96-6167-1937-2d09" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Engineer" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="c458-3af9-b3b0-fd5f">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Precise" hidden="false" type="rule" id="e749-ded2-cb72-f4a4" targetId="6672-c04b-b4a5-411d"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="df0f-e7e3-30ff-9d5c" targetId="b5d5-d129-b510-f936"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Informer" hidden="false" id="7324-d185-c31e-31fd">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="7061-72f1-4a5f-2614" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Informer" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="eeb4-60f-4418-f8a0">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Nimble" hidden="false" type="rule" id="7188-393b-7ae8-b433" targetId="f6de-6b53-6de0-e4cf"/>
+      </infoLinks>
+      <rules>
+        <rule name="Decoy" hidden="false" id="745b-c10a-8ed6-9fcb">
+          <description>Spend an Action to swap places with an Ally the unit can see.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="47a7-c539-5641-5a0c" targetId="b5d5-d129-b510-f936"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Anomaly" hidden="false" id="d4ac-2f31-b6d3-eb44">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="5a36-69a9-2bab-f02e" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Anomaly" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="92d5-8720-3951-6b16">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Smite" hidden="false" id="e0fe-9904-3421-f71">
+          <description>Once per Turn, as an Action, target an Enemy the unit can see and Roll. If you pass, they take that much Damage. If you fail, you take that much Damage.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="8c21-b1ab-3003-1dae" targetId="b5d5-d129-b510-f936"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Kindred" hidden="false" id="2619-856c-a40d-acd4">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="94f7-2fee-a66-abf9" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Kindred" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="7e15-6ae7-f0ac-9977">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Arenaline" hidden="false" id="5acd-35d5-aa83-f562">
+          <description>The unit may perform a Free Action at the end of its Turn. If the unit does, take 1 Damage.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="d561-f884-a60e-27ab" targetId="b5d5-d129-b510-f936"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Unborn" hidden="false" id="6b0d-ac5f-db02-5577">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="ffe0-9131-dab9-4f2" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Unborn" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="51ac-dbbb-118c-85b8">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Impact" hidden="false" id="593d-9327-c345-af5c">
+          <description>Cause 1 Damage to an Enemy when the unit Moves into touch with it.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="9558-5fd0-c821-562" targetId="b5d5-d129-b510-f936"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Seer" hidden="false" id="27ce-64c2-c790-66bb">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="c93b-9577-865d-9c9b" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Seer" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="ad24-bf70-89e4-4416">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Link" hidden="false" id="c6e9-bab0-95ea-128a">
+          <description>At the end of the unit&apos;s Turn, an Ally this unit has Line of Sight to can make a Free Move.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="4f68-cde-bbb8-f815" targetId="b5d5-d129-b510-f936"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Savage Claws" hidden="false" id="7abd-78b-80e6-f831">
+      <profiles>
+        <profile name="Savage Claws" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="9525-63c1-b613-7083">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M3x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Huge Claws" hidden="false" id="baab-f553-bcd0-8b86">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Huge Claws" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="8bfb-4989-1d2f-2ea4">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M3x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Storm" hidden="false" type="rule" id="6998-7815-2401-325d" targetId="bf6d-af3d-7b05-daac"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Lethal Probe" hidden="false" id="df5e-f50a-dbce-341b">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Lethal Probe" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="d432-a671-ef89-3984">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Agony" hidden="false" type="rule" id="89f3-7e14-9ad6-22d2" targetId="18df-7449-c20c-2db7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Storm Cannon" hidden="false" id="fa0b-888e-7d43-c6cd">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Storm Cannon" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="552b-55a4-2c1a-87a6">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R3x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Storm" hidden="false" type="rule" id="242a-860e-7f95-6b86" targetId="bf6d-af3d-7b05-daac"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Novagun" hidden="false" id="86c8-238e-f5a-bdb">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Novagun" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="8721-8fe7-cc63-fe80">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R3x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Surge" hidden="false" id="3358-bc7b-f492-976f">
+          <description>x2 Damage but the unit takes the Damage for each to hit roll of a 1.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Grav Warper" hidden="false" id="439-ff66-e71f-bd10">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Grav Warper" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="5eaf-cc77-5b31-126c">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Force" hidden="false" type="rule" id="db41-d2d8-847e-7262" targetId="32b2-18be-7872-5131"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Toxic Blade" hidden="false" id="5de-fa1b-9173-e37e">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Toxic Blade" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="335-5afc-64b-2076">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Ripper Staff" hidden="false" id="33ac-6ad2-4f26-9288">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Ripper Staff" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="bc51-6077-4e67-fe52">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M2x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy" hidden="false" type="rule" id="47ca-ad9e-d514-d447" targetId="63b-6162-70d1-394c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Scatterblaster" hidden="false" id="6898-36d5-3078-7a93">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Scatterblaster" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="5425-7e51-3532-628b">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R3x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Charger" hidden="false" id="e786-5fa3-6400-c5a2">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Charger" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="d8b0-c06f-8bff-e9f2">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R2x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Surge" hidden="false" id="6921-9b06-fbe6-4789">
+          <description>x2 Damage but the Shooting unit takes the Damage for each to hit roll of a 1.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Rumbler" hidden="false" id="ab5f-dd98-b4f-de16">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Rumbler" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="6a64-d9f-729c-e61a">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R2x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Concuss" hidden="false" id="d0ef-4e7e-8c5f-703f">
+          <description>x2 Damage vs Standing targets. Ignore Shock roll results that would kill.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Claws" hidden="false" id="414f-9cb7-3074-145c">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Claws" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="cc1c-6558-7863-5d38">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M2x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Toxic Dagger" hidden="false" id="18d4-960d-5e83-590a">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Toxic Dagger" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="c3ce-524c-2e90-ed08">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Lethal" hidden="false" id="3db9-caa7-d448-a734">
+          <description>Shock Rolls of 7 are treated as a Double.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Gear" hidden="false" id="b5d5-d129-b510-f936">
+      <entryLinks>
+        <entryLink import="true" name="Huge Claws" hidden="false" type="selectionEntry" id="970f-8c6e-9f9d-a5b6" targetId="baab-f553-bcd0-8b86"/>
+        <entryLink import="true" name="Lethal Probe" hidden="false" type="selectionEntry" id="1fe7-42ae-b7bb-1d64" targetId="df5e-f50a-dbce-341b"/>
+        <entryLink import="true" name="Storm Cannon" hidden="false" type="selectionEntry" id="1593-fef3-f6f2-baea" targetId="fa0b-888e-7d43-c6cd"/>
+        <entryLink import="true" name="Novagun" hidden="false" type="selectionEntry" id="b5d-4cf4-b35f-9152" targetId="86c8-238e-f5a-bdb"/>
+        <entryLink import="true" name="Grav Warper" hidden="false" type="selectionEntry" id="4a3e-c696-92ec-a9b0" targetId="439-ff66-e71f-bd10"/>
+        <entryLink import="true" name="Toxic Blade" hidden="false" type="selectionEntry" id="594b-6a11-7069-bceb" targetId="5de-fa1b-9173-e37e"/>
+        <entryLink import="true" name="Savage Claws" hidden="false" type="selectionEntry" id="fbdf-5c6e-7e9c-1851" targetId="7abd-78b-80e6-f831"/>
+        <entryLink import="true" name="Ripper Staff" hidden="false" type="selectionEntry" id="7e3d-35fd-b609-6f11" targetId="33ac-6ad2-4f26-9288"/>
+        <entryLink import="true" name="Scatterblaster" hidden="false" type="selectionEntry" id="c014-2c01-cfd8-3f15" targetId="6898-36d5-3078-7a93"/>
+        <entryLink import="true" name="Charger" hidden="false" type="selectionEntry" id="8cec-4ecf-3f62-d348" targetId="e786-5fa3-6400-c5a2"/>
+        <entryLink import="true" name="Rumbler" hidden="false" type="selectionEntry" id="1ae0-bf0e-5cc6-9e1" targetId="ab5f-dd98-b4f-de16"/>
+        <entryLink import="true" name="Claws" hidden="false" type="selectionEntry" id="5b8d-4167-ddd-c796" targetId="414f-9cb7-3074-145c"/>
+        <entryLink import="true" name="Piercer" hidden="false" type="selectionEntry" id="be66-5a7c-bbe0-9848" targetId="1211-1401-dc41-a728"/>
+        <entryLink import="true" name="Blaster" hidden="false" type="selectionEntry" id="85fe-2a6f-66c4-74ce" targetId="2c56-1597-297-7263"/>
+        <entryLink import="true" name="Pistol" hidden="false" type="selectionEntry" id="c421-b8e5-5ff0-b1ef" targetId="4480-dd01-5586-6da7"/>
+        <entryLink import="true" name="Toxic Dagger" hidden="false" type="selectionEntry" id="17cf-a82d-7fb7-d78" targetId="18d4-960d-5e83-590a"/>
+        <entryLink import="true" name="Cloak" hidden="false" type="selectionEntry" id="2ac1-c1f7-7be1-af0e" targetId="a65e-4d40-c9a9-fae7"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

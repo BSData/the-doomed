@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="2483-5f53-ba36-f5af" name="Inheritor Courts - The Cursed" gameSystemId="sys-774c-62f8-fa42-34ab" gameSystemRevision="1" revision="1" authorUrl="https://roster.cards" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Sheriff" hidden="false" id="6051-c02a-c081-a47b">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="e9a4-4b78-244e-8ab3" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Sheriff" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="240d-d18f-79c-5293">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Precise" hidden="false" type="rule" id="b6ca-e108-b810-fbea" targetId="6672-c04b-b4a5-411d"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="ca53-aaf5-bf9c-f135" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+      <rules>
+        <rule name="Execute" hidden="false" id="5eab-923f-c555-a87b">
+          <description>At the end of the unit&apos;s Turn, a Downed Enemy it can see takes d6 Damage.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Marshall" hidden="false" id="df4e-9ca4-2d25-16da">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="b97-8a52-a0af-c23" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Marshall" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="1226-71ce-6366-c7d">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="d0c0-c2e7-e5d1-24d1" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fierce" hidden="false" type="rule" id="4f49-8432-b78-578e" targetId="f87a-ab95-7fa5-db49"/>
+      </infoLinks>
+      <rules>
+        <rule name="Advance" hidden="false" id="b77a-af34-4ab9-4d60">
+          <description>At the end of the unit&apos;s Turn, all Allies that it can see make a Free Move.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Judge" hidden="false" id="9f61-974b-48cd-90d">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="3c3f-b34d-8d0f-dbd0" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Judge" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="5878-5b81-630b-d7d0">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tough" hidden="false" type="rule" id="d97e-37ed-d1f6-f6b2" targetId="2b24-88e0-ae4-1b57"/>
+      </infoLinks>
+      <rules>
+        <rule name="Condemn" hidden="false" id="ba11-c3c3-bde9-a85e">
+          <description>At the end of the unit&apos;s Turn, target an Enemy it can see. All Readied Allies can make a Free Attack on the targeted Enemy.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="10da-58be-4ac3-6de3" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Paragon" hidden="false" id="b44b-7c9b-cd56-10e0">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="6323-536e-7df1-f9ce" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Paragon" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="a5d0-47c6-d26b-754f">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tough" hidden="false" type="rule" id="8e11-a04d-1345-ad33" targetId="2b24-88e0-ae4-1b57"/>
+      </infoLinks>
+      <rules>
+        <rule name="Guardian" hidden="false" id="c172-3871-f04c-7d89">
+          <description>Attack at QL2+ vs Enemies that are touching an Ally.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="6a9a-f53e-38bb-f5be" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Pathfinder" hidden="false" id="e849-f92b-796d-3c29">
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="6600-4ce2-436f-c8e0" primary="true" name="Follower"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="Pathfinder" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="1c8c-6c4e-771-3dc9">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Precise" hidden="false" type="rule" id="1a26-b798-13c9-6e29" targetId="6672-c04b-b4a5-411d"/>
+      </infoLinks>
+      <rules>
+        <rule name="Shortcut" hidden="false" id="9f8a-75d4-c92f-1d96">
+          <description>At the end of the unit&apos;s Turn, if this unit is touching a board edge it can Move to any other point on that edge without rolling.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="6e5c-21bb-ce88-f758" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion" hidden="false" id="2641-3f72-56bd-ccb">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="c7d1-e09c-a6-d150" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Champion" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="9d79-509f-c05d-d70a">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fierce" hidden="false" type="rule" id="32c6-20bd-a89d-c071" targetId="f87a-ab95-7fa5-db49"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="23ba-7afc-f00e-f836" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Freelance" hidden="false" id="5b9d-4e5b-fe90-d625">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="f3a7-8987-c9b8-1519" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Freelance" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="6c21-e553-5fb4-8fff">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tough" hidden="false" type="rule" id="87aa-3489-2e57-9284" targetId="2b24-88e0-ae4-1b57"/>
+      </infoLinks>
+      <rules>
+        <rule name="Versatile" hidden="false" id="8a7-37f7-f7c-1639">
+          <description>At the end of the unit&apos;s Turn, perform a Free Action of a type it has not already performed this Turn.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="1ea-ee4e-6302-a13e" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chronicle" hidden="false" id="5e-fb06-3f47-ca6e">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="3815-2b8d-8c2b-676" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Chronicle" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="e396-4dfd-d8d9-5a1e">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Aide" hidden="false" id="6a43-b19f-ba40-9094">
+          <description>At the end of the unit&apos;s Turn, if it can see the warband Leader the Chronicle can perform a Free Move or Recovery Action.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="d33b-24ef-6f2a-bc02" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Legionnaire" hidden="false" id="a104-7335-b7c8-3ec4">
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="efda-a873-ba72-9cab" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Legionnaire" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="748-8ba5-ded7-71e2">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Loyal" hidden="false" id="1200-9a17-887b-4694">
+          <description>Shoot as QL3+ when it can see the warband Leader.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="1b18-6d5e-bb86-256e" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Zealot" hidden="false" id="8d39-2db2-3fcb-6c42">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="46a2-88e6-1e8b-ed80" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Zealot" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="1cd2-fe7d-3819-50a5">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Fanatic" hidden="false" id="6c0c-5bca-1f5d-cdba">
+          <description>Fight as QL3+ if it can see the warband Leader.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="d37c-5abd-3a80-622a" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Herald" hidden="false" id="9fd4-5935-8546-1862">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="d983-a775-2a3a-55c7" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Herald" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="ff18-5bf2-2712-78bf">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Inspire" hidden="false" id="d23e-d36e-4774-8a0a">
+          <description>At the end of its Turn, an Ally it can see makes a Free Fight or Recover Action.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="79ef-ec2-e417-1aca" targetId="aa2c-b35d-97c0-21b"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="false" name="Siege Hammer" hidden="false" id="aece-dc00-712e-2709">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Siege Hammer" typeId="b448-8404-ef84-ea4d" typeName="Attack" hidden="false" id="e58-7b5e-a165-9b7">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy" hidden="false" type="rule" id="1fb2-7bc-3ba8-d4f4" targetId="63b-6162-70d1-394c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ancestral Blade" hidden="false" id="118d-62a2-3ab5-47cb">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Ancestral Blade" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="4d36-d39b-b7-c033">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M3x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rend" hidden="false" type="rule" id="2042-e682-1315-1769" targetId="6235-c6fb-4eeb-7386"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Incinerator" hidden="false" id="b67c-8c04-2675-620d">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Incinerator" typeId="1704-ae8f-2573-e9b6" typeName="Attack" hidden="false" id="be48-5e74-dbaa-6cb3">
+          <characteristics>
+            <characteristic name="Dice" typeId="844f-b352-b646-76dc">R3x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Blaze" hidden="false" id="2800-28f3-6950-1001">
+          <description>The unit can Shoot twice per Turn, but not at the same target.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Righteous Fist" hidden="false" id="cc0e-91c0-1285-61eb">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Righteous Fist" typeId="b448-8404-ef84-ea4d" typeName="Attack" hidden="false" id="8f89-3a7a-b65-1b4a">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Brutal" hidden="false" id="c79b-aeb1-8651-e4b7">
+          <description>Roll 1d6+1 on the Shock Table instead of 2d6.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Relic Blade" hidden="false" id="6c06-9184-48ef-719e">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Relic Blade" typeId="b448-8404-ef84-ea4d" typeName="Attack" hidden="false" id="5e22-2b00-ea37-8010">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M3x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flail" hidden="false" id="c51c-e066-b9be-40e2">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Flail" typeId="b448-8404-ef84-ea4d" typeName="Attack" hidden="false" id="8be2-b7f8-846f-5455">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M2x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Surge" hidden="false" type="rule" id="366a-4b7a-4cca-9a1f" targetId="d743-bdbb-a49e-1247"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Polearm" hidden="false" id="8c22-9ca7-9671-a7a">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Polearm" typeId="b448-8404-ef84-ea4d" typeName="Attack" hidden="false" id="26d-58f1-8504-339a">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy" hidden="false" type="rule" id="a98e-7ff5-eb4f-b0a4" targetId="63b-6162-70d1-394c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thundergun" hidden="false" id="974b-d958-c3f6-a7b2">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Thundergun" typeId="b448-8404-ef84-ea4d" typeName="Attack" hidden="false" id="6d97-8554-5784-ae6b">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Slugger" hidden="false" id="9b3e-c1b-9470-6cce">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Slugger" typeId="b448-8404-ef84-ea4d" typeName="Attack" hidden="false" id="10a3-35e0-d815-78a8">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Sidearm" hidden="false" type="rule" id="733f-2763-4363-4472" targetId="7e73-1650-7b5a-626f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Repeater" hidden="false" id="6637-cb25-9b6e-db1b">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Repeater" typeId="b448-8404-ef84-ea4d" typeName="Attack" hidden="false" id="35a6-e63b-683f-d4c8">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Storm" hidden="false" type="rule" id="af85-e714-5c6e-8175" targetId="bf6d-af3d-7b05-daac"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Maul" hidden="false" id="6d97-175f-9109-6b8d">
+      <costs>
+        <cost name="Pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Maul" typeId="b448-8404-ef84-ea4d" typeName="Attack" hidden="false" id="85d4-12a6-2fd3-3490">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Gear" hidden="false" id="aa2c-b35d-97c0-21b">
+      <entryLinks>
+        <entryLink import="true" name="Ancestral Blade" hidden="false" type="selectionEntry" id="b5ff-710a-c226-cfaf" targetId="118d-62a2-3ab5-47cb"/>
+        <entryLink import="true" name="Blade" hidden="false" type="selectionEntry" id="b6e1-8463-6023-1b55" targetId="2b1-b999-d739-5204"/>
+        <entryLink import="true" name="Blaster" hidden="false" type="selectionEntry" id="6419-258b-1f72-168a" targetId="2c56-1597-297-7263"/>
+        <entryLink import="true" name="Flail" hidden="false" type="selectionEntry" id="725e-370-13b8-2d5b" targetId="c51c-e066-b9be-40e2"/>
+        <entryLink import="true" name="Maul" hidden="false" type="selectionEntry" id="fbfe-4ba2-4e1f-4d2e" targetId="6d97-175f-9109-6b8d"/>
+        <entryLink import="true" name="Piercer" hidden="false" type="selectionEntry" id="65b6-14ba-bdd4-aecb" targetId="1211-1401-dc41-a728"/>
+        <entryLink import="true" name="Relic Blade" hidden="false" type="selectionEntry" id="4e28-60e3-ac90-40ae" targetId="6c06-9184-48ef-719e"/>
+        <entryLink import="true" name="Repeater" hidden="false" type="selectionEntry" id="927-ce40-a6be-4d88" targetId="6637-cb25-9b6e-db1b"/>
+        <entryLink import="true" name="Righteous Fist" hidden="false" type="selectionEntry" id="93dc-67a7-29d5-52cc" targetId="cc0e-91c0-1285-61eb"/>
+        <entryLink import="true" name="Shield" hidden="false" type="selectionEntry" id="7326-f7ea-6732-5d46" targetId="d4ee-9f52-8891-1279"/>
+        <entryLink import="true" name="Thundergun" hidden="false" type="selectionEntry" id="70a5-d6c-76f9-99a2" targetId="974b-d958-c3f6-a7b2"/>
+        <entryLink import="true" name="Siege Hammer" hidden="false" type="selectionEntry" id="fb8b-4c92-e902-b5a7" targetId="aece-dc00-712e-2709"/>
+        <entryLink import="true" name="Incinerator" hidden="false" type="selectionEntry" id="556d-ba63-e8e4-fadf" targetId="b67c-8c04-2675-620d"/>
+        <entryLink import="true" name="Polearm" hidden="false" type="selectionEntry" id="b83-66ac-ae17-deb" targetId="8c22-9ca7-9671-a7a"/>
+        <entryLink import="true" name="Slugger" hidden="false" type="selectionEntry" id="1e3e-5242-9988-73bc" targetId="9b3e-c1b-9470-6cce"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

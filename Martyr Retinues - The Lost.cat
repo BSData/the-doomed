@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="3bda-5eb9-cf20-a2b1" name="Martyr Retinues - The Lost" gameSystemId="sys-774c-62f8-fa42-34ab" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="model" import="false" name="Curator" hidden="false" id="9a6b-474a-9941-b312">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="794c-9e9e-221c-927f" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Curator" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="7e65-a557-ea6-502e">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Nimble" hidden="false" type="rule" id="ec20-6e4b-f0c8-3c54" targetId="f6de-6b53-6de0-e4cf"/>
+      </infoLinks>
+      <rules>
+        <rule name="Infiltrate" hidden="false" id="40fa-2a9d-b638-4427">
+          <description>At the end of the unit&apos;s Turn, Move one Ally that no Enemies can see to any position on the battlefield that no Enemy can see.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="2286-c4dd-1ec1-76e8" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Steward" hidden="false" id="8ce9-4e7f-a622-9365">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="9ffe-4635-8fe2-32c1" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Steward" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="51be-e509-85eb-d23b">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Guide" hidden="false" id="747d-9a4e-d5c6-a6a5">
+          <description>At the end of the unit&apos;s Turn, an Ally you can see performs a Free Move or Attack using your QL score.</description>
+        </rule>
+        <rule name="Bionics" hidden="false" id="f21-79c5-9395-ca65">
+          <description>The unit can Move or Attack as normal while Down.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="95fa-fe0e-2f70-93ca" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Sage" hidden="false" id="1c8e-345-8dc2-175c">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="d917-a968-1ebe-8ada" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Sage" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="8ad2-8519-eb76-40f6">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tough" hidden="false" type="rule" id="d3a3-c11b-57b4-c945" targetId="2b24-88e0-ae4-1b57"/>
+      </infoLinks>
+      <rules>
+        <rule name="Arise" hidden="false" id="f58a-1be0-6d53-ae03">
+          <description>At the end of the unit&apos;s Turn, all Allies it can see may attempt a Free Recovery.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="5a9c-626a-898-84c9" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Besieger" hidden="false" id="1055-46fb-2bc2-b647">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="5c86-9be6-932c-bbb7" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Besieger" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="87df-3a5f-63b2-ace8">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tough" hidden="false" type="rule" id="1c28-2352-98f9-69e7" targetId="2b24-88e0-ae4-1b57"/>
+      </infoLinks>
+      <rules>
+        <rule name="Vengeful" hidden="false" id="ced9-68fd-9a5d-a247">
+          <description>Act as QL3+ on a Turn in which the unit Recovered.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="ef6e-efcd-828d-7068" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Harrier" hidden="false" id="282b-5dec-bc66-7f28">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="a35a-e06d-28cf-de54" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Harrier" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="622b-4779-bbb8-54b7">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Nimble" hidden="false" type="rule" id="b2b8-1d03-bbec-2980" targetId="f6de-6b53-6de0-e4cf"/>
+      </infoLinks>
+      <rules>
+        <rule name="Dash" hidden="false" id="58d6-1d52-6128-437b">
+          <description>At the end of the unit&apos;s Turn, Move without rolling.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="43a7-fac5-9b2a-deb8" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Errant" hidden="false" id="3497-e001-bb44-1c00">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="4c88-bb8c-75d5-4150" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Errant" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="905-967c-9c62-62b4">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Electro-Sword" hidden="false" type="selectionEntry" id="dff5-a385-81b0-4d18" targetId="44ab-a98e-1ee2-3745">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7103-8a71-1371-4ee7"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d2a-3992-578c-6080"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="ab2f-9403-738-81b6" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Technolyte" hidden="false" id="2696-c07e-538e-ba03">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="e63-f9c4-c310-ccd6" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Technolyte" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="6172-9867-fd4-6cde">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tough" hidden="false" type="rule" id="385e-78e4-1848-b84b" targetId="2b24-88e0-ae4-1b57"/>
+      </infoLinks>
+      <rules>
+        <rule name="Aim" hidden="false" id="c608-f59b-9250-5464">
+          <description>May spend 3 Actions to Shoot at QL2+</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="4cf7-f420-6058-5234" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Automata" hidden="false" id="2542-e943-65a1-743c">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="3bd9-5683-2e76-3d8" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Automata" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="6b79-4faa-5074-407f">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tough" hidden="false" type="rule" id="fb25-1c06-5d33-4669" targetId="2b24-88e0-ae4-1b57"/>
+      </infoLinks>
+      <rules>
+        <rule name="Bionics" hidden="false" id="24f0-92cc-d34a-5335">
+          <description>The unit can Move or Attack as normal while Down.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="83ea-63fa-8e18-61aa" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Falcon" hidden="false" id="4b36-1b37-dedd-c18c">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="9263-eb49-5935-a5d7" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Falcon" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="aa4-72e8-e61d-6aeb">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Nimble" hidden="false" type="rule" id="713e-d594-2d8d-ed4a" targetId="f6de-6b53-6de0-e4cf"/>
+      </infoLinks>
+      <rules>
+        <rule name="Jump" hidden="false" id="dd43-2f63-e7ea-a7a9">
+          <description>The unit may ignore a single obstacle on your first Move each Turn.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="f46b-2321-1f4a-aa74" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Seeker" hidden="false" id="4474-4b62-14b5-935c">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="9e6a-fe5d-8515-6e0d" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Seeker" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="df1f-532-e737-5ba7">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Seize" hidden="false" id="79c4-e82f-e7db-debe">
+          <description>The unit may Move without needing to Roll, so long as it can end its Turn touching an Enemy or a Nexus.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="80e9-a8bb-c0ae-16ee" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Squire" hidden="false" id="1940-266d-1c12-64ed">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="2bf3-2ce0-7ba-a8af" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Squire" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="b409-ba50-f637-e665">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Nimble" hidden="false" type="rule" id="74b6-4d0-9e9b-2534" targetId="f6de-6b53-6de0-e4cf"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="a51-4a4b-348-85b2" targetId="cb01-a3ec-7344-d261"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="false" name="Autostave" hidden="false" id="ed5-f6e1-a74-d2ea">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Autostave" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="998b-960f-2f55-63ed">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M3x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy" hidden="false" type="rule" id="c12f-a44-a95b-63da" targetId="63b-6162-70d1-394c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Repulsor" hidden="false" id="7485-53ff-5f0-4ab1">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Repulsor" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="ae33-a8f4-e936-ce2e">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Force" hidden="false" id="1f3d-ccc9-592e-3509">
+          <description>On a hit, Move the target directly towards or away from the Shooting unit.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Thermal Lance" hidden="false" id="68da-c8cf-d436-f12f">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Thermal Lance" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="f795-512c-dbd7-48ee">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Rend" hidden="false" id="627f-33c5-1dc1-a05">
+          <description>Attack rolls of a 6 cause x2 Damage.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Railgun" hidden="false" id="4075-74d1-10a1-842b">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Railgun" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="e2b4-cee-28ba-2bbc">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy" hidden="false" type="rule" id="c04c-3fef-81b0-f092" targetId="63b-6162-70d1-394c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Electro-Sword" hidden="false" id="44ab-a98e-1ee2-3745">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Electro-Sword" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="aa53-e168-f9b6-f65">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Alloy Staff" hidden="false" id="d78e-b6ea-e78f-d98d">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Alloy Staff" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="5a6f-bf91-80c6-6696">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M3x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Oxidiser" hidden="false" id="3570-2667-d385-2a37">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Oxidiser" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="6d11-3cfc-6760-a2ab">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Lethal" hidden="false" id="ae5-be1a-f92d-e1db">
+          <description>Rolls on the Shock Table of a 7 are treated as a Double.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Scorcher" hidden="false" id="a55d-f98a-bc-f87">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Scorcher" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="198f-eb84-a286-38d7">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R2x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Agony" hidden="false" id="65b5-c3a2-8348-a4bd">
+          <description>x2 Damage vs Downed targets.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Atomiser" hidden="false" id="7c89-f4da-23fa-8ca5">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Atomiser" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="f9e4-78e7-a8a0-9d8f">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy" hidden="false" type="rule" id="aa53-6148-5cd4-5216" targetId="63b-6162-70d1-394c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Sword" hidden="false" id="5411-346d-f54e-65fa">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Sword" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="77af-c808-2179-c4a">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M2x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Spear" hidden="false" id="c18a-dcd6-5a79-4fd2">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Spear" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="73e3-3b50-37a2-e2db">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Piercer" hidden="false" id="870e-9cd2-9bac-4f6e">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Piercer" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="620b-4c51-9c60-25c0">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Shock Rod" hidden="false" id="bc44-e203-476c-ed9e">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Shock Rod" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="26e2-ba34-5a10-3fc2">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Suppress" hidden="false" id="e171-4916-2033-e919">
+          <description>When the unit Wounds a target they become Exhausted.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Shield" hidden="false" id="bf54-d981-ed9b-7bf1">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Shield" hidden="false" id="7c3c-6809-ab7c-11b4">
+          <description>+1 to Saves while Readied.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Cloak" hidden="false" id="1792-a552-1cf9-4ef2">
+      <costs>
+        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Cloak" hidden="false" id="ff78-eb40-4302-f6d6">
+          <description>+1 to Saves while Exhausted.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Gear" hidden="false" id="cb01-a3ec-7344-d261">
+      <entryLinks>
+        <entryLink import="true" name="Autostave" hidden="false" type="selectionEntry" id="862a-fa4d-645d-737d" targetId="ed5-f6e1-a74-d2ea"/>
+        <entryLink import="true" name="Repulsor" hidden="false" type="selectionEntry" id="cd1b-bea8-1ed7-abb0" targetId="7485-53ff-5f0-4ab1"/>
+        <entryLink import="true" name="Thermal Lance" hidden="false" type="selectionEntry" id="8268-3bc6-2800-a594" targetId="68da-c8cf-d436-f12f"/>
+        <entryLink import="true" name="Railgun" hidden="false" type="selectionEntry" id="3f3f-a491-346d-45d8" targetId="4075-74d1-10a1-842b"/>
+        <entryLink import="true" name="Electro-Sword" hidden="false" type="selectionEntry" id="7607-3c67-d9aa-f422" targetId="44ab-a98e-1ee2-3745"/>
+        <entryLink import="true" name="Alloy Staff" hidden="false" type="selectionEntry" id="577b-f784-70be-347c" targetId="d78e-b6ea-e78f-d98d"/>
+        <entryLink import="true" name="Oxidiser" hidden="false" type="selectionEntry" id="e53e-ce2-e7f9-83bb" targetId="3570-2667-d385-2a37"/>
+        <entryLink import="true" name="Scorcher" hidden="false" type="selectionEntry" id="48ac-3c1d-e7ce-2e1" targetId="a55d-f98a-bc-f87"/>
+        <entryLink import="true" name="Atomiser" hidden="false" type="selectionEntry" id="7648-a728-a4ed-d73f" targetId="7c89-f4da-23fa-8ca5"/>
+        <entryLink import="true" name="Sword" hidden="false" type="selectionEntry" id="8ee9-4f2c-42f2-fff4" targetId="5411-346d-f54e-65fa"/>
+        <entryLink import="true" name="Spear" hidden="false" type="selectionEntry" id="5d1c-27b-aeaf-d00" targetId="c18a-dcd6-5a79-4fd2"/>
+        <entryLink import="true" name="Piercer" hidden="false" type="selectionEntry" id="fb6a-2967-a80e-f2ce" targetId="870e-9cd2-9bac-4f6e"/>
+        <entryLink import="true" name="Shock Rod" hidden="false" type="selectionEntry" id="aa8f-35d2-b897-be9" targetId="bc44-e203-476c-ed9e"/>
+        <entryLink import="true" name="Shield" hidden="false" type="selectionEntry" id="eaea-b100-ad3d-512b" targetId="d4ee-9f52-8891-1279"/>
+        <entryLink import="true" name="Cloak" hidden="false" type="selectionEntry" id="cd0a-eb72-20b7-bcfc" targetId="a65e-4d40-c9a9-fae7"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
