@@ -24,7 +24,7 @@
         <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="2286-c4dd-1ec1-76e8" targetId="cb01-a3ec-7344-d261"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Steward" hidden="false" id="8ce9-4e7f-a622-9365">
+    <selectionEntry type="model" import="false" name="Steward" hidden="false" id="8ce9-4e7f-a622-9365">
       <categoryLinks>
         <categoryLink targetId="default-category" id="9ffe-4635-8fe2-32c1" primary="true" name="Leader"/>
       </categoryLinks>
@@ -72,7 +72,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Besieger" hidden="false" id="1055-46fb-2bc2-b647">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="5c86-9be6-932c-bbb7" primary="true" name="Follower"/>
@@ -96,9 +96,9 @@
         <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="ef6e-efcd-828d-7068" targetId="cb01-a3ec-7344-d261"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Harrier" hidden="false" id="282b-5dec-bc66-7f28">
+    <selectionEntry type="model" import="false" name="Harrier" hidden="false" id="282b-5dec-bc66-7f28">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="a35a-e06d-28cf-de54" primary="true" name="Follower"/>
@@ -124,7 +124,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Errant" hidden="false" id="3497-e001-bb44-1c00">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="4c88-bb8c-75d5-4150" primary="true" name="Follower"/>
@@ -148,7 +148,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Technolyte" hidden="false" id="2696-c07e-538e-ba03">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="e63-f9c4-c310-ccd6" primary="true" name="Follower"/>
@@ -174,7 +174,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Automata" hidden="false" id="2542-e943-65a1-743c">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="3bd9-5683-2e76-3d8" primary="true" name="Follower"/>
@@ -200,7 +200,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Falcon" hidden="false" id="4b36-1b37-dedd-c18c">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="9263-eb49-5935-a5d7" primary="true" name="Follower"/>
@@ -226,7 +226,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Seeker" hidden="false" id="4474-4b62-14b5-935c">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="9e6a-fe5d-8515-6e0d" primary="true" name="Follower"/>
@@ -249,7 +249,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Squire" hidden="false" id="1940-266d-1c12-64ed">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="2bf3-2ce0-7ba-a8af" primary="true" name="Follower"/>
@@ -272,7 +272,7 @@
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="false" name="Autostave" hidden="false" id="ed5-f6e1-a74-d2ea">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <profiles>
         <profile name="Autostave" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="998b-960f-2f55-63ed">
@@ -287,7 +287,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Repulsor" hidden="false" id="7485-53ff-5f0-4ab1">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <profiles>
         <profile name="Repulsor" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="ae33-a8f4-e936-ce2e">
@@ -304,7 +304,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Thermal Lance" hidden="false" id="68da-c8cf-d436-f12f">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <profiles>
         <profile name="Thermal Lance" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="f795-512c-dbd7-48ee">
@@ -321,7 +321,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Railgun" hidden="false" id="4075-74d1-10a1-842b">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <profiles>
         <profile name="Railgun" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="e2b4-cee-28ba-2bbc">
@@ -336,7 +336,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Electro-Sword" hidden="false" id="44ab-a98e-1ee2-3745">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <profiles>
         <profile name="Electro-Sword" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="aa53-e168-f9b6-f65">
@@ -348,7 +348,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Alloy Staff" hidden="false" id="d78e-b6ea-e78f-d98d">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <profiles>
         <profile name="Alloy Staff" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="5a6f-bf91-80c6-6696">
@@ -360,7 +360,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Oxidiser" hidden="false" id="3570-2667-d385-2a37">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <profiles>
         <profile name="Oxidiser" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="6d11-3cfc-6760-a2ab">
@@ -377,7 +377,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Scorcher" hidden="false" id="a55d-f98a-bc-f87">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <profiles>
         <profile name="Scorcher" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="198f-eb84-a286-38d7">
@@ -394,7 +394,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Atomiser" hidden="false" id="7c89-f4da-23fa-8ca5">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <profiles>
         <profile name="Atomiser" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="f9e4-78e7-a8a0-9d8f">
@@ -409,7 +409,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Sword" hidden="false" id="5411-346d-f54e-65fa">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <profiles>
         <profile name="Sword" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="77af-c808-2179-c4a">
@@ -421,7 +421,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Spear" hidden="false" id="c18a-dcd6-5a79-4fd2">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <profiles>
         <profile name="Spear" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="73e3-3b50-37a2-e2db">
@@ -433,7 +433,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Piercer" hidden="false" id="870e-9cd2-9bac-4f6e">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <profiles>
         <profile name="Piercer" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="620b-4c51-9c60-25c0">
@@ -445,7 +445,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Shock Rod" hidden="false" id="bc44-e203-476c-ed9e">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <profiles>
         <profile name="Shock Rod" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="26e2-ba34-5a10-3fc2">
@@ -462,7 +462,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Shield" hidden="false" id="bf54-d981-ed9b-7bf1">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <rules>
         <rule name="Shield" hidden="false" id="7c3c-6809-ab7c-11b4">
@@ -472,7 +472,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Cloak" hidden="false" id="1792-a552-1cf9-4ef2">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <rules>
         <rule name="Cloak" hidden="false" id="ff78-eb40-4302-f6d6">

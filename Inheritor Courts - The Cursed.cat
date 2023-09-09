@@ -192,7 +192,7 @@
         <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="d33b-24ef-6f2a-bc02" targetId="aa2c-b35d-97c0-21b"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Legionnaire" hidden="false" id="a104-7335-b7c8-3ec4">
+    <selectionEntry type="model" import="true" name="Legionnaire" hidden="false" id="a104-7335-b7c8-3ec4">
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="efda-a873-ba72-9cab" primary="true" name="Follower"/>
       </categoryLinks>

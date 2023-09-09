@@ -67,9 +67,9 @@
         <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="770a-4c18-bb8c-338" targetId="b5d5-d129-b510-f936"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Offspring" hidden="false" id="bbee-67cf-3686-2289">
+    <selectionEntry type="model" import="true" name="Offspring" hidden="false" id="bbee-67cf-3686-2289">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="5f30-6327-f5b0-4f84" primary="true" name="Follower"/>
@@ -96,7 +96,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Keeper" hidden="false" id="6f9f-d8d2-b658-d6d7">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="413e-20da-81b8-f832" primary="true" name="Follower"/>
@@ -119,7 +119,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Engineer" hidden="false" id="cbc6-d833-5188-cb24">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="b96-6167-1937-2d09" primary="true" name="Follower"/>
@@ -140,7 +140,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Informer" hidden="false" id="7324-d185-c31e-31fd">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="7061-72f1-4a5f-2614" primary="true" name="Follower"/>
@@ -166,7 +166,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Anomaly" hidden="false" id="d4ac-2f31-b6d3-eb44">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="5a36-69a9-2bab-f02e" primary="true" name="Follower"/>
@@ -189,7 +189,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Kindred" hidden="false" id="2619-856c-a40d-acd4">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="94f7-2fee-a66-abf9" primary="true" name="Follower"/>
@@ -212,7 +212,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Unborn" hidden="false" id="6b0d-ac5f-db02-5577">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="ffe0-9131-dab9-4f2" primary="true" name="Follower"/>
@@ -235,7 +235,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Seer" hidden="false" id="27ce-64c2-c790-66bb">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="daf9-5bd2-ec45-4b91" id="c93b-9577-865d-9c9b" primary="true" name="Follower"/>
@@ -269,7 +269,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Huge Claws" hidden="false" id="baab-f553-bcd0-8b86">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <profiles>
         <profile name="Huge Claws" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="8bfb-4989-1d2f-2ea4">
@@ -284,7 +284,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Lethal Probe" hidden="false" id="df5e-f50a-dbce-341b">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <profiles>
         <profile name="Lethal Probe" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="d432-a671-ef89-3984">
@@ -299,7 +299,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Storm Cannon" hidden="false" id="fa0b-888e-7d43-c6cd">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <profiles>
         <profile name="Storm Cannon" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="552b-55a4-2c1a-87a6">
@@ -314,7 +314,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Novagun" hidden="false" id="86c8-238e-f5a-bdb">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <profiles>
         <profile name="Novagun" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="8721-8fe7-cc63-fe80">
@@ -331,7 +331,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Grav Warper" hidden="false" id="439-ff66-e71f-bd10">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
       </costs>
       <profiles>
         <profile name="Grav Warper" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="5eaf-cc77-5b31-126c">
@@ -346,7 +346,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Toxic Blade" hidden="false" id="5de-fa1b-9173-e37e">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <profiles>
         <profile name="Toxic Blade" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="335-5afc-64b-2076">
@@ -358,7 +358,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Ripper Staff" hidden="false" id="33ac-6ad2-4f26-9288">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <profiles>
         <profile name="Ripper Staff" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="bc51-6077-4e67-fe52">
@@ -373,7 +373,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Scatterblaster" hidden="false" id="6898-36d5-3078-7a93">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <profiles>
         <profile name="Scatterblaster" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="5425-7e51-3532-628b">
@@ -385,7 +385,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Charger" hidden="false" id="e786-5fa3-6400-c5a2">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <profiles>
         <profile name="Charger" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="d8b0-c06f-8bff-e9f2">
@@ -402,7 +402,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Rumbler" hidden="false" id="ab5f-dd98-b4f-de16">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
       </costs>
       <profiles>
         <profile name="Rumbler" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="6a64-d9f-729c-e61a">
@@ -419,7 +419,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Claws" hidden="false" id="414f-9cb7-3074-145c">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <profiles>
         <profile name="Claws" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="cc1c-6558-7863-5d38">
@@ -431,7 +431,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Toxic Dagger" hidden="false" id="18d4-960d-5e83-590a">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <profiles>
         <profile name="Toxic Dagger" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="c3ce-524c-2e90-ed08">
