@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-774c-62f8-fa42-34ab" name="The Doomed" battleScribeVersion="2.03" revision="1" type="gameSystem" authorName="@DaeronAlagos" authorUrl="https://roster.cards" authorContact="https://discord.gg/Y5x9UnErYN" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-774c-62f8-fa42-34ab" name="The Doomed" battleScribeVersion="2.03" revision="2" type="gameSystem" authorName="@DaeronAlagos" authorUrl="https://roster.cards" authorContact="https://discord.gg/Y5x9UnErYN" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Leader" id="default-category">
       <constraints>
