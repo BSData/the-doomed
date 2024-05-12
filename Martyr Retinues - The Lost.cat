@@ -142,6 +142,9 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7103-8a71-1371-4ee7"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d2a-3992-578c-6080"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="0"/>
+          </costs>
         </entryLink>
         <entryLink import="true" name="Gear" hidden="false" type="selectionEntryGroup" id="ab2f-9403-738-81b6" targetId="cb01-a3ec-7344-d261"/>
       </entryLinks>
