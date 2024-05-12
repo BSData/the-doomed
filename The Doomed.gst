@@ -16,13 +16,13 @@
   <forceEntries>
     <forceEntry name="Warband" hidden="false" id="default-force">
       <categoryLinks>
-        <categoryLink name="Default Category" hidden="false" id="default-force-category-link" targetId="default-category"/>
-        <categoryLink name="Follower" hidden="false" id="394b-8f0f-ed47-6b03" targetId="daf9-5bd2-ec45-4b91" type="category"/>
+        <categoryLink name="Leader" hidden="false" id="default-force-category-link" targetId="default-category"/>
+        <categoryLink name="Follower" hidden="false" id="394b-8f0f-ed47-6b03" targetId="daf9-5bd2-ec45-4b91"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
   <costTypes>
-    <costType name=" pts" defaultCostLimit="20" id="f447-42b6-b8e6-3b11"/>
+    <costType name="pts" defaultCostLimit="20" id="f447-42b6-b8e6-3b11"/>
   </costTypes>
   <sharedRules>
     <rule name="Precise" hidden="false" id="6672-c04b-b4a5-411d">
@@ -87,10 +87,13 @@
           <description>+1 to Saves while Exhausted.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Piercer" hidden="false" id="1211-1401-dc41-a728">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <profiles>
         <profile name="Piercer" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="d78e-7d64-727d-f2c2">
@@ -102,7 +105,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Blaster" hidden="false" id="2c56-1597-297-7263">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <profiles>
         <profile name="Blaster" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="6f09-52ca-c231-5b54">
@@ -118,10 +121,13 @@
           <description>+1 to Saves while the unit is Readied.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Blade" hidden="false" id="2b1-b999-d739-5204">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <profiles>
         <profile name="Blade" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="3bb2-2dc6-9149-d316">
@@ -133,7 +139,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="4480-dd01-5586-6da7">
       <costs>
-        <cost name=" pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="1"/>
       </costs>
       <profiles>
         <profile name="Pistol" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="59b6-36ec-a8c2-43aa">
